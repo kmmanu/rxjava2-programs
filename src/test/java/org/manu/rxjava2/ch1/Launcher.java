@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class LauncherTest {
+public class Launcher {
     @Test
     public void observable_from_just() {
         Observable<String> strings = Observable.just("Alpha", "Beta", "Gamma");
